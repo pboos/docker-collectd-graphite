@@ -1,4 +1,4 @@
-Hostname $HOSTNAME
+Hostname "$HOSTNAME"
 
 FQDNLookup false
 Interval $INTERVAL
@@ -64,9 +64,9 @@ LoadPlugin write_graphite
 
 <Plugin "write_graphite">
  <Carbon>
-   Host $GRAPHITE_HOST
-   Port $GRAPHITE_PORT
-   Prefix $GRAPHITE_PREFIX
+   Host "$GRAPHITE_HOST"
+   Port "$GRAPHITE_PORT"
+   Prefix "$GRAPHITE_PREFIX"
    EscapeCharacter "_"
    SeparateInstances true
    StoreRates true
