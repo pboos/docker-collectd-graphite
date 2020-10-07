@@ -49,7 +49,7 @@ LoadPlugin write_graphite
 </Plugin>
 
 <Plugin "disk">
-  Disk "/^[hs]d[a-z]/"
+  Disk "/^[hsv]d[a-z]/"
   IgnoreSelected false
 </Plugin>
 
